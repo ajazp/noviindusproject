@@ -1,0 +1,536 @@
+
+*{
+    font-family: Fontnormal;
+}
+
+body{
+    height:600vh;
+}
+
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(248,251,251);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.logo img{
+    width:300px;
+    position: absolute;
+    left:120px;
+    top:40px;
+
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding-right:60px;
+    font-size: 18px;
+}
+.navbar{
+    padding-top: 80px;
+    padding-left: 280px;
+}
+.btn1{
+    width: 150px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: rgb(16,157,212);
+    border: none;
+    color: white;
+    font-size: 17px;
+}
+.contact-btn{
+    position: absolute;
+    right:170px;
+    top:70px;
+}
+
+.content{
+    position: absolute;
+    top:30%;
+    left:100px;
+    width: 600px;
+    text-align: left;
+}
+.content h2{
+    font-size: 60px;
+    color: rgb(36,36,38);
+}
+.content h3{
+    font-size: 25px;
+    color: rgb(36,36,38);
+
+}
+.content h4{
+    font-size: 25px;
+    color: rgb(36,36,38);
+
+}
+.getstratedbtn{
+    position: absolute;
+    top:80%;
+    left:100px;
+    
+}
+.btn2{
+    width: 200px;
+    height:60px;
+    border: none;
+    border-radius: 13px;
+    background-color: rgb(255,200,1);
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+.mainpic img{
+    width:500px;
+    position: absolute;
+    top:30%;
+    right: 150px;
+}
+.features{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    width:100%;
+    height:100px;
+}
+.feature1{
+    position: absolute;
+    left:300px;
+    border: 1px solid rgba(0, 0, 0, 0.201);
+    width:250px;
+    border-radius: 10px;
+}
+.feature2{
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.201);
+    width:250px;
+    border-radius: 10px;
+}
+.feature3{
+    position: absolute;
+    right: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.201);
+    width:250px;
+    border-radius: 10px;
+}
+.about{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;
+}
+.content-about{
+    width:40%;
+    padding-left: 100px;
+
+}
+.content-about .heading{
+    font-size: 40px;
+
+}
+.content-about .para{
+    color:rgb(49,49,49);
+    padding-top: 20px;
+    font-size:14px;
+}
+.pic2{
+    padding-left: 30px;
+    padding-top: 91px;
+}
+.sapphire{
+    background-color: rgb(29,138,223);
+    width:100%;
+    height:200vh;
+    display: flex;
+    
+    
+    
+    
+}
+
+.sapphire .head h2{
+    position: absolute;
+    left:140px;
+    font-size: 60px;
+    width: 600px;
+    color: white;
+    text-align: left;
+    
+}
+.sapphire .subhead h2{
+    padding-top: 200px;
+    position: absolute;
+    left:140px;
+    color:white;
+    font-size:18px;
+    text-align: left;
+    width: 700px;
+    font-weight: 100;
+}
+.sapphire .membership{
+    width:450px;
+    height:580px;
+    position: relative;
+    left:140px;
+    top: 30%;
+    border-radius: 15px;
+    text-align: center;
+    
+    background-color: rgb(255, 255, 255);
+}
+.sapphire .membership h2{
+    font-size: 35px;
+    padding-top: 50px;
+}
+.sapphire .membership ul{
+    font-size: 20px;
+    text-align: left;
+}
+.sapphire .membership li{
+    padding-top: 30px;
+}
+.sapphire .membership-footer{
+    background-color:rgb(255,194,0);
+    border-radius: 0px 0px 15px 15px;
+    height: 70px;
+
+}
+.sapphire .membership-footer h3{
+    color:white;
+    font-size:30px;
+    padding-top: 15px;
+}
+.pic4{
+    position: relative;
+    right: 30px;
+    top:30%;
+    padding-left: 300px;
+    
+    
+}
+
+.pic4 img{
+    width:527.29px;
+    height: 332px;
+}
+.sapphire .row-content{
+    display: flex;
+    padding-top: 50px;
+}
+.row-content .left-content{
+    float: left;
+}
+.row-content .right-content{
+    float: right;
+}
+.sapphire1{
+    float: right;
+    position: absolute;
+    top:2500px;
+    right:500px;
+    width: 250px;
+    height:90px;
+    background-color: white;
+    border-radius: 18px;
+    text-align: center;
+
+
+}
+.sapphire1 h2{
+    font-size:12px;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+.sapphire2 h2{
+    font-size:12px;
+    padding-left: 20px;
+    padding-top: 20px;
+
+
+}
+.sapphire3 h2{
+    font-size:12px;
+    padding-left: 20px;
+    padding-top: 20px;
+
+
+}
+.sapphire4 h2{
+    font-size:12px;
+    padding-left: 20px;
+    padding-top: 20px;
+
+
+}
+.sapphire2{
+    float: right;
+    position: absolute;
+    top:2500px;
+    right:200px;
+    width: 250px;
+    height:90px;
+    border-radius: 18px;
+
+    background-color: white;
+    
+
+
+}
+.sapphire3{
+    float: right;
+    position: absolute;
+    top:2600px;
+    right:500px;
+    width: 250px;
+    height:90px;
+    border-radius: 18px;
+
+    background-color: white;
+
+}
+.sapphire4{
+    float: right;
+    position: absolute;
+    top:2600px;
+    right:200px;
+    width: 250px;
+    height:90px;
+    border-radius: 18px;
+
+    background-color: white;
+}
+
+.testimonials{
+    width:100%;
+    height: 160vh;
+    display: flex;
+    justify-content: right;
+    
+
+}
+.testimonials .left-content{
+    width:50%;
+    text-align: left;
+    position: absolute;
+    left:100px;
+
+}
+.pic5{
+    
+    padding-top: 100px;
+}
+.btn4 .btn{
+    border: none;
+    border-radius: 15px;
+    height:40px;
+    width: 200px;
+    color: rgb(0,176,198);
+    background-color: rgb(227,248,250);
+    font-weight: 600;
+   
+}
+.btn4{
+    padding-top: 100px;
+}
+.left-content .heading{
+    font-size: 30px;
+}
+.left-content .heading h2{
+    color: rgb(49,49,49);
+}
+.left-content .testimonial-content{
+    width:70%;
+    
+}
+.left-content .testimonial-content h2{
+    font-size: 18px;
+    color: rgb(49,49,49);
+    font-weight: 100;
+}
+.btn5 .btn{
+    border: none;
+    border-radius: 15px;
+    height:50px;
+    width: 180px;
+    color: white;
+    background-color: rgb(14,160,210);
+    font-weight: 600;
+}
+.btn5{
+    padding-top: 30px;
+}
+.testimonials .right-content{
+    text-align: right;
+    justify-content: right;
+    width:50%;
+    
+}
+
+.testimonials .right-content .quote1{
+    position: relative;
+    width:500px;
+    height: 160px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.292);
+    right:100px;
+    left: 30px;
+    top: 100px;
+    border-radius: 15px;
+    text-align: left;
+
+}
+.testimonials .right-content .quote2{
+    position: relative;
+    width:500px;
+    height: 160px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.292);
+    right:100px;
+    left: 30px;
+    top: 130px;
+    border-radius: 15px;
+    text-align: left;
+
+
+
+}
+.testimonials .right-content .quote3{
+    position: relative;
+    width:500px;
+    height: 160px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.292);
+    right:100px;
+    left: 30px;
+    top: 160px;
+    border-radius: 15px;
+    text-align: left;
+
+
+
+}
+.testimonials .right-content .quote4{
+    position: relative;
+    width:500px;
+    height: 160px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.292);
+    right:100px;
+    left: 30px;
+    top: 190px;
+    border-radius: 15px;
+    text-align: left;
+
+
+
+}
+.quote1 h2{
+    padding-top: 20px;
+    font-size: 18px;
+    padding-left: 20px;
+    color: rgba(0, 0, 0, 0.525);
+    font-weight: 200;
+
+}
+.quote2 h2{
+    padding-top: 20px;
+    font-size: 18px;
+    padding-left: 20px;
+    color: rgba(0, 0, 0, 0.525);
+    font-weight: 200;
+
+}
+.quote3 h2{
+    padding-top: 20px;
+    font-size: 18px;
+    padding-left: 20px;
+    color: rgba(0, 0, 0, 0.525);
+    font-weight: 200;
+
+}
+.quote4 h2{
+    padding-top: 20px;
+    font-size: 18px;
+    padding-left: 20px;
+    color: rgba(0, 0, 0, 0.525);
+    font-weight: 200;
+
+}
+
+.author{
+    display: flex;
+}
+.author img{
+    width: 30px;
+    height:30px;
+}
+.creative-div{
+    width:100%;
+    height:130vh;
+    display: flex;
+}
+.creative-div .div-content{
+    width:70%;
+    height:550px;
+    background-color:rgb(252,87,59);
+    position: relative;
+    top:0;
+    left:15%;
+    border-radius: 30px;
+}
+.div-content .content{
+    color: white;
+    font-size: 17px;
+    padding-left: 15px;
+    text-align: left;
+    width: 30%;
+    
+}
+.div-content .content h2{
+    color: white;
+    font-size: 17px;
+    padding-left: 15px;
+    text-align: left;
+    width: 100%;
+    
+}
+.div-content .content h1{
+    font-size: 40px;
+}
+
+.div-content .content-right{
+    text-align: left;
+    float: right;
+    padding-right: 30px;
+    padding-top: 10%;
+    
+    width:30%;
+    
+}
+.div-content .content-right h2{
+    font-weight:100;
+    font-size: 50px;
+    color: white;
+
+}
+.div-content .content-right h3{
+    font-weight:100;
+    font-size: 20px;
+    color: white;
+}
+.btn6 .btn{
+    border: none;
+    border-radius: 15px;
+    height:50px;
+    width: 230px;
+    color: rgb(252,87,59);
+    background-color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Fontnormal';
+    src: url('font/Poppins-Regular.ttf');
+}
